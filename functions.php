@@ -19,19 +19,6 @@ LAUNCH BONES
 Let's get everything up and running.
 *********************/
 
-//Create Contact Details page
-if( function_exists('acf_add_options_page') ) {
-
-	acf_add_options_page(array(
-		'page_title' 	=> 'Contact Details',
-		'menu_title'	=> 'Contact Details',
-		'menu_slug' 	=> 'contact-details',
-		'capability'	=> 'edit_posts',
-		'redirect'		=> false
-	));
-
-}
-
 function bones_ahoy() {
 
   //Allow editor style.
@@ -244,14 +231,6 @@ function bones_comments( $comment, $args, $depth ) {
 } // don't remove this bracket!
 
 
-/*
-This is a modification of a function found in the
-twentythirteen theme where we can declare some
-external fonts. If you're using Google Fonts, you
-can replace these fonts, change it in your scss files
-and be up and running in seconds.
-*/
-
 //Replace WP logo with custom logo
 function my_login_logo() { ?>
     <style type="text/css">
@@ -264,17 +243,6 @@ function my_login_logo() { ?>
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
-
-//Redirect to homepage when logo is clicked
-function my_login_logo_url() {
-    return home_url();
-}
-add_filter( 'login_headerurl', 'my_login_logo_url' );
-
-function my_login_logo_url_title() {
-    return 'Linden Foods';
-}
-add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
 
 //Add favicon for WP-admin
