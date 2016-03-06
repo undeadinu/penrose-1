@@ -10,7 +10,7 @@
 
 // Project configuration
 var project 		= 'Penrose', // Project name, used for build zip.
-	url 		= 'penrose.dev', // Local Development URL for BrowserSync. Change as-needed.
+	url 		= 'dev.wordpress:8888', // Local Development URL for BrowserSync. Change as-needed.
 	bower 		= './library/bower_components/'; // Not truly using this yet, more or less playing right now. TO-DO Place in Dev branch
 	build 		= './buildtheme/', // Files that you want to package into a zip go here
 	buildInclude 	= [

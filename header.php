@@ -31,7 +31,7 @@
 			<link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon-152x152.png" />
 			<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicon-32x32.png" sizes="32x32" />
 			<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicon-16x16.png" sizes="16x16" />
-			<meta name="application-name" content="Linden Foods" />
+			<meta name="application-name" content="<?php wp_title(); ?>	" />
 			<meta name="msapplication-TileColor" content="#FFFFFF" />
 			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/mstile-144x144.png" />
 			<!--[if IE]>
@@ -41,6 +41,8 @@
 			<meta name="theme-color" content="#aa198d">
 
 			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+
+			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.min.css">
 
 
 
@@ -60,9 +62,7 @@
 		<div class="container">
 
 				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<a href="<?php echo home_url(); ?>">
-						<img src="<?php echo get_template_directory_uri();?>/library/images/logo.png" alt="Barclay Telecoms Machine to Machine">
-					</a>
+
 				<div class="nav-container">
 					<a href="#" id="menu-icon" class="menu-icon">
 						<div class="line"></div>
