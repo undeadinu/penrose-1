@@ -1,19 +1,17 @@
-//------------------------------------
-//   VARIABLES
-//------------------------------------
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
 
 //font-stacks
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
+//paths
+$image-path:  '../library/images';
+
 //colors
 $main-color: #ddd;
 $link-color: #0173A0;
-
-//paths
-$image-path:  '../images';
-
-
 
 // Breakpoints
 $container: 1200px;
@@ -23,3 +21,8 @@ $tablet: 700px;
 $phablet: 550px;
 $mobile: 400px;
 $navigation-breakpoint: 40em;
+
+// Spacing
+$base-spacing: 55px;
+$small-spacing: $base-spacing/2;
+$large-spacing: $base-spacing*2;
