@@ -13,9 +13,8 @@
 	<?php // force Internet Explorer to use the latest rendering engine available ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title>
-			<?php wp_title('&middot;'); ?>
-		</title>
+		<title><?php wp_title('&middot;'); ?></title>
+		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<?php // mobile meta (hooray!) ?>
 			<meta name="HandheldFriendly" content="True">
@@ -37,7 +36,7 @@
 			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/mstile-144x144.png" />
 			<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		<![endif]-->
+			<![endif]-->
 
 			<meta name="theme-color" content="#aa198d">
 
