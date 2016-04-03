@@ -59,9 +59,11 @@
 
 		<div class="container">
 				<div class="nav-container">
-					<a href="#" id="menu-icon" class="menu-icon">
-						<div class="line"></div>
-					</a>
+					<button id="menu-icon" class="hamburger  hamburger--slider" type="button">
+					  <span class="hamburger-box">
+					    <span class="hamburger-inner"></span>
+					  </span>
+					</button>
 					<nav class="nav-collapse " role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
 			         'container' => false,                           // remove nav container
