@@ -253,5 +253,16 @@ echo '<link rel="shortcut icon" type="image/png" href="',get_template_directory_
 add_action('admin_head','favicon');
 add_action('login_head', 'favicon');
 
+//Making jQuery Google API
+function modify_jquery() {
+	if (!is_admin()) {
+		// comment out the next two lines to load the local copy of jQuery
+		wp_deregister_script('jquery');
+		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js', true, '1.8.1');
+		wp_enqueue_script('jquery');
+	}
+}
+add_action('init', 'modify_jquery');
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
