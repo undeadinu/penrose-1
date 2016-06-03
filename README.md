@@ -1,19 +1,38 @@
-# penrose
-My custom Wordpress theme built upon Bones and using Gulp for asset management. It uses ahmadawa's Advanced Gulp Workflow for Wordpress and is built on top of the Bones starter theme
+**Development is currently taking place in the Version2 branch so clone that one**
 
-Dependencies and Getting Started
---------
+# Penrose
 
-1. `npm install`
+A do-with-it-what-you-please starter theme for Wordpress that is built upon the wonderful [Bones theme](https://github.com/eddiemachado/bones) and uses Gulp for assets management.  
 
-2. Set your project configuration in gulpfile.js!! Be sure to go into gulpfile.js and setup the project configuration variables. This is important for using Browser-Sync with your project. Make sure in gulpfile.js that you set the project variable to the appropriate name for your project URL. Default is "dev.penrose"
 
-3. Install Bower - In the command prompt/terminal run this command: `npm install -g bower`. This installs Bower (the -g flag installs globally, not just in the current directory, super friends). Your only need to do this step once.
 
-4. Run `gulp` command in the root folder of your theme and it will start generating CSS from Sass and everything else
 
-5. Run `gulp images` to optimize images and only place the images in `assets/img/raw/` folder, they'll moved to `assets/img/` once optimized
+## What does it do?
 
-6. To build an installable zip file of your theme, use command `gulp build` and your project.zip file will be created as well as a `buildTheme` folder, where you can see what was zipped.
+It uses [WPGulp by Ahmad Awais](https://github.com/ahmadawais/WPGulp) to do:
 
-More info: https://github.com/ahmadawais/Advanced-Gulp-WordPress
+ - Live reload with Browser-Sync
+ - Sass to CSS, autoprefixing, sourcemaps, merge media queries, and minify CSS
+ - Concatenates and minifies JS files within a Vendor and Custom folder into one js file each
+ - Compresses PNG, JPEG, GIF and SVG
+ - watch for changes in CSS, JS and php
+ - InjectCSS for faster reloading
+
+## Get up and running
+
+ 1. Clone the `Version2` Branch to wherever you please on your computer.
+ 2. Configure your Project Configuration variables in `gulpfile.js`
+ 3. `cd` into your root folder in terminal and run `npm install`. This will install all of the `node_modules` required by Gulp
+ 4. Once the `node_modules` have been installed, type `gulp` into your Terminal window and boom. You're up and running.
+
+## How to's
+
+ - Run `gulp images` to optimise all of the images inside of `library/img/raw/` and move them into `library/img/`
+ - To build an installable zip file of your theme, use command `gulp build` and your project.zip file will be created as well as a `buildTheme` folder, where you can see what was zipped.
+ - Run `gulp styles` to only minify the SASS files
+
+
+
+## Dependencies
+
+ - You need to have Node, NPM and Gulp installed globally
