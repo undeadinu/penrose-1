@@ -1,5 +1,6 @@
 # Penrose
-Penrose is my starter theme that I use for each Wordpress build that is built upon the wonderful Bones theme and uses Gulp for assets management.  
+
+A starter theme for Wordpress that is built upon the wonderful Bones theme and uses Gulp for assets management.  
 --------
 
 ## What does it do?
