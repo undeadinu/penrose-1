@@ -1,0 +1,21 @@
+/*!
+Theme Name: Penrose
+Theme URI: http://helloiammichael.com
+Description: Custom theme developed on top of the wonderful Bones theme. (http://themble.com/bones/)
+Author: Michael Mckeever
+Author URI: http://helloiammichael.com
+Version: 2.0
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+*/
+
+
+@import "mixins";
+@import "variables";
+@import "vendors";
+@import "base";
+@import "support";
+@import "components";
+@import "layout";
+@import "core";
+@import "pages";
