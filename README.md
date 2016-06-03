@@ -1,10 +1,15 @@
+**Development is currently taking place in the Version2 branch so clone that one**
+
 # Penrose
 
-A starter theme for Wordpress that is built upon the wonderful Bones theme and uses Gulp for assets management.  
+A do-with-it-what-you-please starter theme for Wordpress that is built upon the wonderful [Bones theme](https://github.com/eddiemachado/bones) and uses Gulp for assets management.  
+
+
+
 
 ## What does it do?
 
-It uses WPGulp built by Ahmad Awais(https://github.com/ahmadawais/WPGulp) to do:
+It uses [WPGulp by Ahmad Awais](https://github.com/ahmadawais/WPGulp) to do:
 
  - Live reload with Browser-Sync
  - Sass to CSS, autoprefixing, sourcemaps, merge media queries, and minify CSS
@@ -15,9 +20,10 @@ It uses WPGulp built by Ahmad Awais(https://github.com/ahmadawais/WPGulp) to do:
 
 ## Get up and running
 
- 1. Configure your Project Configuration variables in `gulpfile.js`
- 2. `cd` into your root folder in terminal and run `npm install`. This will install all of the node_modules required by Gulp
- 3. Once the node_modules have beern installed, type `gulp` into your Terminal window and boom. You're up and running.
+ 1. Clone the `Version2` Branch to wherever you please on your computer.
+ 2. Configure your Project Configuration variables in `gulpfile.js`
+ 3. `cd` into your root folder in terminal and run `npm install`. This will install all of the `node_modules` required by Gulp
+ 4. Once the `node_modules` have been installed, type `gulp` into your Terminal window and boom. You're up and running.
 
 ## How to's
 
