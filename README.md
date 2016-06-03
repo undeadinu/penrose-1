@@ -2,14 +2,12 @@
 
 # Penrose
 
-A do-with-it-what-you-please starter theme for Wordpress that is built upon the wonderful [Bones theme](https://github.com/eddiemachado/bones) and uses Gulp for assets management.  
-
-
+A do-with-it-what-you-please starter theme for Wordpress that is built upon the wonderful [Bones theme](https://github.com/eddiemachado/bones) and uses [WPGulp by Ahmad Awais](https://github.com/ahmadawais/WPGulp) for assets management.  
 
 
 ## What does it do?
 
-It uses [WPGulp by Ahmad Awais](https://github.com/ahmadawais/WPGulp) to do:
+It uses  to do:
 
  - Live reload with Browser-Sync
  - Sass to CSS, autoprefixing, sourcemaps, merge media queries, and minify CSS
