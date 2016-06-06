@@ -5,8 +5,7 @@
 ![Penrose theme logo](https://raw.githubusercontent.com/mckeever02/penrose/master/screenshot.png)
 
 
-A do-with-it-what-you-please starter theme for Wordpress that is built upon the wonderful [Bones theme](https://github.com/eddiemachado/bones) and uses [WPGulp by Ahmad Awais](https://github.com/ahmadawais/WPGulp) for assets management.  
-
+Wordpress Starter Kit featuring Bones Starter Theme, WpGulp, a flexbox grid with a typographical baseline grid, and Wordmove for pushing and pulling full wordpress sites (including db) across multiple environments
 
 ## What does it do?
 
