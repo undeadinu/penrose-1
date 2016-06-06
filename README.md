@@ -56,12 +56,8 @@ Based on [Cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Fram
  3. `cd` into your root folder in terminal and run `npm install`. This will install all of the `node_modules` required by Gulp
  4. Once the `node_modules` have been installed, type `gulp` into your Terminal window and boom. You're up and running.
 
-## How to's
-
-
-
 
 ## Dependencies
 
- - You need to have Node, NPM and Gulp installed globally. Start here: https://docs.npmjs.com/getting-started/installing-node
+ - You need to have Node, NPM and Gulp installed globally. I'll not go into details but you can start here: https://docs.npmjs.com/getting-started/installing-node
  - You need the [Wordmove](http://welaika.github.io/wordmove/) ruby gem to use Wordmove deploy. For me, this was as easy as `gem install wordmove`
