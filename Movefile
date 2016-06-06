@@ -1,0 +1,71 @@
+local:
+  vhost: "http://dev.host"
+  wordpress_path: "/users/user/directory/folder/" # use an absolute path here
+
+  database:
+    name: "wordpress"
+    user: "root"
+    password: ""
+    host: "localhost"
+
+production:
+  vhost: "http://example.com"
+  wordpress_path: "/srv/users/user/apps/example/public/"
+
+  database:
+    name: "wordpress"
+    user: "root"
+    password: ""
+    host: "localhost"
+
+  exclude:
+    - ".htaccess"
+    - ".git/"
+    - ".gitignore"
+    - ".sass-cache/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "wp-config.php"
+    - "wp-content/*.sql"
+    - "node_modules/"
+    - "package.json"
+    - "gulpfile.js"
+    - "README*"
+
+  ssh:
+    host: "ip.address"
+    user: "username"
+    port: 22
+    rsync_options: "--verbose"
+
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: "wp-content"
+  #   uploads: "wp-content/uploads"
+  #   plugins: "wp-content/plugins"
+  #   mu_plugins: "wp-content/mu-plugins"
+  #   themes: "wp-content/themes"
+  #   languages: "wp-content/languages"
+
+  # ssh:
+  #   host: "host"
+  #   user: "user"
+  #   password: "password" # password is optional, will use public keys if available.
+  #   port: 22 # Port is optional
+  #   rsync_options: "--verbose" # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: "host"
+  #     user: "user"
+  #     password: "password" # password is optional, will use public keys if available.
+
+  # ftp:
+  #   user: "user"
+  #   password: "password"
+  #   host: "host"
+  #   passive: true
+  #   scheme: "ftps" # default "ftp"
+
+# staging: # multiple environments can be specified
+#   [...]
