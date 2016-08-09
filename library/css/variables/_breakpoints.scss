@@ -1,9 +1,15 @@
 // Breakpoint based variables
 
-$desktop-large: 1920px;
-$desktop: 1260px;
-$tablet: 700px;
-$phablet: 550px;
+$xs: 35.5em; //568px;
+$sm: 48em; //768px;
+$md: 64em; //1024px;
+$lg: 80em; //1280px;
+
+$desktop-huge: 1400px;
+$desktop-large: $lg;
+$desktop: $md; //1024px;
+$tablet: $sm; //768px;
+$phablet: $xs; //568px;
 $mobile: 400px;
 
 
